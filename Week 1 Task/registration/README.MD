@@ -33,18 +33,6 @@ Log In: Navigate to the login page and enter your username and password to acces
 
 Manage Profile: Once logged in, you can view and edit your profile information.
 
-# Folder Structure
-graphql
-
-├── accounts/                   # Django app for user registration functionality
-│   ├── migrations/             # Database migration files
-│   ├── templates/              # HTML templates for views
-│   ├── forms.py                # Form classes for user registration and login
-│   ├── models.py               # User model definition
-│   └── views.py                # View functions for user registration, login, and profile management
-├── user_registration/          # Django project settings and configuration
-├── templates/                  # Base HTML template and other shared templates
-└── manage.py                   # Django management script
 Future Enhancements
 Implement email verification for user registration.
 Add password reset functionality.
