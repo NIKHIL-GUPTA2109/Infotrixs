@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    h2 {
+      margin-bottom: 20px;
+    }
+    
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff9900;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+      background-color: #ff6600;
+    }
+    
+    footer {
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>    
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website!</h1>
+  </header>
+  <section>
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to our website. We provide amazing services and products that will meet all your needs. Feel free to explore our website and discover the wonderful things we offer.</p>
+      
+      <a href="{% url 'logout' %}" class="button">Logout</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Our Company. <b>Created by Nikhil Gupta</b> . All rights reserved.</p>
+  </footer>
+</body>
+</html>
