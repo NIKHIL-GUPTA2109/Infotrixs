@@ -8,43 +8,34 @@ Profile Management: Logged-in users can manage their profile information.
 # Technologies Used
 Django: A Python web framework used for building the back-end functionality.
 SQLite: A lightweight database used for storing user data.
-Setup and Installation
+# Setup and Installation
 Clone the repository:
 shell
-Copy code
 git clone https://github.com/your-username/user-registration-system.git
 cd user-registration-system
-Create a virtual environment (optional but recommended):
+# Create a virtual environment (optional but recommended):
 shell
-Copy code
 python3 -m venv env
 source env/bin/activate
-Install the dependencies:
+
+# Run database migrations:
 shell
-Copy code
-pip install -r requirements.txt
-Run database migrations:
-shell
-Copy code
 python manage.py migrate
-Start the development server:
+# Start the development server:
 shell
-Copy code
 python manage.py runserver
-Access the application in your web browser:
-arduino
-Copy code
+# Access the application in your web browser:
 http://localhost:8000/
-Usage
+# Usage
 Sign Up: Visit the registration page and fill in the required information to create a new user account.
 
 Log In: Navigate to the login page and enter your username and password to access your account.
 
 Manage Profile: Once logged in, you can view and edit your profile information.
 
-Folder Structure
+# Folder Structure
 graphql
-Copy code
+
 ├── accounts/                   # Django app for user registration functionality
 │   ├── migrations/             # Database migration files
 │   ├── templates/              # HTML templates for views
@@ -61,5 +52,5 @@ Improve the user interface and design.
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
